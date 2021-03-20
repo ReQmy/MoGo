@@ -140,7 +140,9 @@ label{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform-origin: top;
     transform: scaleY(0);
+    opacity: 0;
     transition: .3s;
   }
   .menu-biger li{
@@ -150,6 +152,7 @@ label{
   }
   .nav-menu input:checked ~ .menu-biger{
     transform: scaleY(1);
+    opacity: 1;
   }
 }
 .menu-biger li{
