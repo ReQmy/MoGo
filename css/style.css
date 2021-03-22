@@ -128,11 +128,11 @@ label{
     top: -10px;
     transition: transform .3s;
   }
-  .menu-biger{
+  .menu{
     /* display: none; */
     position: absolute;
     /* width: 100%; */
-    top: 80px;
+    top: 75px;
     right: 0;
     left: 0;
     background: #fff;
@@ -145,17 +145,17 @@ label{
     opacity: 0;
     transition: .3s;
   }
-  .menu-biger li{
+  .menu li{
     margin-left: 0;
     margin-bottom: 30px;
     text-align: center;
   }
-  .nav-menu input:checked ~ .menu-biger{
+  .nav-menu input:checked ~ .menu{
     transform: scaleY(1);
     opacity: 1;
   }
 }
-.menu-biger li{
+.menu li{
   margin-left: 32px;
 }
 .menu li a{
@@ -280,6 +280,7 @@ section{
 }
 @media(max-width: 768px){
   .services-items li{
+    /* justify-content: center; */
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -369,12 +370,9 @@ section{
   top: 50%;
   left: 50%;
   z-index: 2;
-  transform: translate(-50%, -50%);
+  transform: translate(-55%, -50%);
   opacity: 0;
   transition: .3s;
-}
-.social:hover{
-  opacity: 1;
 }
 .social img{
   height: 26px;
@@ -398,9 +396,6 @@ section{
   align-items: center;
   justify-content: center;
 }
-
-
-
 
 .member-image{
   width: 100%;
