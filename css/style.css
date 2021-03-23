@@ -57,7 +57,7 @@ footer{
   font-weight: 700;
   color: #95E1D3;
 }
-@media(max-width: 425px){
+@media(max-width: 768px){
   .logo h1{
     font-size: 45px;
   }
