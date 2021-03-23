@@ -251,7 +251,7 @@ section{
   font-size: 30px;
   color: #333;
 }
-@media(max-width:320px){
+@media(max-width:425px){
   .title{
     line-height: 25px;
   }
