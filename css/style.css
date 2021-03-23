@@ -281,13 +281,14 @@ section{
 @media(max-width: 768px){
   .services-items li{
     /* justify-content: center; */
-    width: 100%;
+    width: 50%;
     padding-top: 20px;
     padding-bottom: 20px;
   }
 }
 @media(max-width: 425px){
   .services-items li{
+    width: 100%;
     padding-left: auto;
     padding-right: auto;
   }
@@ -329,17 +330,27 @@ section{
 .member-profile:last-child{
   margin-right: 0;
 }
+@media(max-width: 625px){
+  .members{
+    flex-wrap: wrap;
+  }
+  .member-profile{
+    width: 40%;
+    margin: 0;
+  }
+  .member-profile:last-child{
+    margin: 20px auto 0;
+  }
+}
 @media(max-width: 425px){
   .members{
     justify-content: center;
-    flex-wrap: wrap;
   }
   .member-profile{
     width: 100%;
     margin-bottom: 20px;
   }
 }
-
 .member-image{
   position: relative;
 }
@@ -383,6 +394,30 @@ section{
   margin-right: 1px;
   background: #FCE38A;
   transition: background .3s;
+}
+@media(max-width: 768px){
+  .social li{
+    width: 40px;
+    height: 40px;
+    margin-right: 1px;
+    background: #FCE38A;
+    transition: background .3s;
+  }
+  .social img{
+    height: 20px;
+  }
+}
+@media(max-width: 425px){
+  .social li{
+    width: 65px;
+    height: 65px;
+    margin-right: 1px;
+    background: #FCE38A;
+    transition: background .3s;
+  }
+  .social img{
+    height: 35px;
+  }
 }
 .social li:last-child{
   margin: 0;
@@ -434,7 +469,7 @@ section{
   list-style: none;
   
   opacity: 0; /*ЗАМЕНИТЬ НА 0*/
-  transition: opasity .3s;
+  transition: opacity .3s;
   z-index: 2;
 }
 
