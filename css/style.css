@@ -514,7 +514,7 @@ footer{
 }
 @media(max-width: 1199px){
   footer{
-    padding: 10 15px;
+    padding: 10px 15px;
   }
 }
 @media(max-width: 425px){
@@ -522,8 +522,12 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
   }
-  .copy{
+  footer form{
+    order: 1;
     margin-bottom: 5px;
+  }
+  .copy{
+    order: 2;
   }
 }
 .copy a{
