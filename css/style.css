@@ -251,6 +251,11 @@ section{
   font-size: 30px;
   color: #333;
 }
+@media(max-width:320px){
+  .title{
+    line-height: 25px;
+  }
+}
 .miniline{
   width: 60px;
   height: 4px;
